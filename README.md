@@ -121,7 +121,7 @@ Using Conda will help keep the required packages separate from other software.
    ```
 
    On macOS, you might need to adjust the path accordingly, e.g., 
-   ```
+   ```bash
    cd ~/Desktop/FluorescenceDataViewer
    ```
 
@@ -148,12 +148,60 @@ Using Conda will help keep the required packages separate from other software.
 ## Running the Code
 
 ### Step 5: Launch the Application
-1. In the terminal/command prompt, ensure you are still in the project folder and that the `fluorescence_viewer` environment is active.
-2. Run the following command:
-   ```
-   python plot_flow_data.py
-   ```
-3. The graphical interface (GUI) will open.
+
+#### **Ensure You Are in the Project Folder:**
+Before running the application, make sure that you are inside the **project folder** where the script files are located.
+
+1. **For Windows:**
+   - Open the **Command Prompt** (type `cmd` in the start menu search and press Enter).
+   - Type `dir` and press Enter. This will list the files and folders in your current directory.
+   - If you see the files related to your project (e.g., `plot_flow_data.py`), you are in the correct folder.
+   - If you do not see them, you need to navigate to the project folder.
+   
+   **To navigate to the project folder:**
+   - Type the following command (replace `<path-to-your-folder>` with the actual path to your project folder):
+     ```bash
+     cd <path-to-your-folder>
+     ```
+     For example, if your project is on the Desktop, you would type:
+     ```bash
+     cd C:\Users\<your-username>\Desktop\FluorescenceDataViewer
+     ```
+
+2. **For macOS:**
+   - Open **Terminal** (you can find it in Applications > Utilities or by searching it via Spotlight).
+   - Type `ls` and press Enter. This will list the files and folders in your current directory.
+   - If you see the files related to your project (e.g., `plot_flow_data.py`), you are in the correct folder.
+   - If you do not see them, you need to navigate to the project folder.
+   
+   **To navigate to the project folder:**
+   - Type the following command (replace `<path-to-your-folder>` with the actual path to your project folder):
+     ```bash
+     cd <path-to-your-folder>
+     ```
+     For example, if your project is on the Desktop, you would type:
+     ```bash
+     cd ~/Desktop/FluorescenceDataViewer
+     ```
+
+#### **Activate the Conda Environment:**
+Once you are inside the project folder, ensure that the Conda environment `fluorescence_viewer` is activated. You can activate it by running:
+
+```bash
+conda activate fluorescence_viewer
+```
+If the environment is activated correctly, you should see the environment name `(fluorescence_viewer)` appear in your terminal/command prompt.
+
+#### **Run the Application:**
+Now that you are in the correct folder and the environment is active, you can run the application.
+
+Simply type the following command:
+
+```
+python plot_flow_data.py
+```
+This will launch the graphical interface (GUI) of your application.
+
 
 ## What the GUI Does
 1. **File Selection:**

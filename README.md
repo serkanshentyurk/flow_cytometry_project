@@ -1,12 +1,12 @@
-# Fluorescence Data Viewer
+# Flow Cytometry Data Viewer
 
-Welcome to the Fluorescence Data Viewer! This tool lets you view and analyse fluorescence data using a simple graphical interface. Even if you have no coding experience, you can follow these step-by-step instructions to set up and run the program on your Windows or macOS computer.
+Welcome to the Flow Cytometry Data Viewer! This tool lets you view and analyse flow cytometry data using a simple graphical interface. Even if you have no coding experience, you can follow these step-by-step instructions to set up and run the program on your Windows or macOS computer.
 
 ---
 
 ## What Does This Tool Do?
 
-- **Load Data Files:** Open tab-separated fluorescence data files.
+- **Load Data Files:** Open tab-separated flow cytometry data files.
 - **View Plots:** See plots of individual cell intensities or average intensity profiles.
 - **Save Plots:** Save your plots as high-quality JPEG images.
 - **User-Friendly Interface:** An easy-to-use window (GUI) built with Python and Tkinter.
@@ -109,27 +109,27 @@ Using Conda will help keep the required packages separate from other software.
    - **macOS:** Open the **Terminal** app.
    
 2. **Navigate to the Project Folder:**  
-   For example, if your project folder is on your Desktop and is named `FluorescenceDataViewer`, type:
+   For example, if your project folder is on your Desktop and is named `FlowCytometryViewer`, type:
    ```bash
-   cd Desktop/FluorescenceDataViewer
+   cd Desktop/FlowCytometryViewer
    ```
 
    On macOS, you might need to adjust the path accordingly, e.g., 
    ```bash
-   cd ~/Desktop/FluorescenceDataViewer
+   cd ~/Desktop/FlowCytometryViewer
    ```
 
 3. **Create a New Conda Environment:**
    Run the following command:
    ```
-   conda create --name fluorescence_viewer python=3.8
+   conda create --name flowcytometry_viewer python=3.8
    ```
    - Feel free to replace 3.8 with a newer version if desired.
-   - Feel free to replace `fluorescence_viewer` with any other preferred name. However, you will be using that name again and again, choose wisely!
+   - Feel free to replace `flowcytometry_viewer` with any other preferred name. However, you will be using that name again and again, choose wisely!
 
 4. **Activate the Conda Environment:**
    ```
-   conda activate fluorescence_viewer
+   conda activate flowcytometry_viewer
    ```
    or if you pick another name for the environment
    ```
@@ -167,7 +167,7 @@ Before running the application, make sure that you are inside the **project fold
      ```
      For example, if your project is on the Desktop, you would type:
      ```bash
-     cd C:\Users\<your-username>\Desktop\FluorescenceDataViewer
+     cd C:\Users\<your-username>\Desktop\FlowCytometryViewer
      ```
 
 2. **For macOS:**
@@ -183,18 +183,18 @@ Before running the application, make sure that you are inside the **project fold
      ```
      For example, if your project is on the Desktop, you would type:
      ```bash
-     cd ~/Desktop/FluorescenceDataViewer
+     cd ~/Desktop/FlowCytometryViewer
      ```
     - Or you can right click to the folder which contains the code and select **New Terminal at Folder**
 
 ### Launch!!!
 #### **Activate the Conda Environment:**
-Once you are inside the project folder, ensure that the Conda environment `fluorescence_viewer` is activated. You can activate it by running:
+Once you are inside the project folder, ensure that the Conda environment `flowcytometry_viewer` is activated. You can activate it by running:
 
 ```bash
-conda activate fluorescence_viewer
+conda activate flowcytometry_viewer
 ```
-If the environment is activated correctly, you should see the environment name `(fluorescence_viewer)` appear in your terminal/command prompt.
+If the environment is activated correctly, you should see the environment name `(flowcytometry_viewer)` appear in your terminal/command prompt.
 
 #### **Run the Application:**
 Now that you are in the correct folder and the environment is active, you can run the application.
@@ -210,7 +210,7 @@ This will launch the graphical interface (GUI) of your application.
 
 ## What the GUI Does
 1. **File Selection:**
-- Use the GUI to select one or more fluorescence data files (tab-separated format). You can add or remove files as needed.
+- Use the GUI to select one or more flow cytometry data files (tab-separated format). You can add or remove files as needed.
 Plotting Options:
 - **Individual Cell Plot:** View the fluorescence intensity of a specific cell.
 - **Average Intensity Plot:** See the average fluorescence intensity across all cells with variability indicators (such as standard deviation, standard error, or percentiles).
@@ -263,4 +263,4 @@ SOFTWARE.
 
 If you have any questions or need help, please open an issue on the GitHub repository or contact the maintainer.
 
-Enjoy using the Fluorescence Data Viewer!
+Enjoy using the Flow Cytometry Data Viewer!

@@ -187,6 +187,7 @@ Before running the application, make sure that you are inside the **project fold
      ```
     - Or you can right click to the folder which contains the code and select **New Terminal at Folder**
 
+### Launch!!!
 #### **Activate the Conda Environment:**
 Once you are inside the project folder, ensure that the Conda environment `fluorescence_viewer` is activated. You can activate it by running:
 

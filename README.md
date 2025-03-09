@@ -18,12 +18,26 @@ Welcome to the Fluorescence Data Viewer! This tool lets you view and analyze flu
 1. **Python 3.6 or newer**
 2. **Conda (Miniconda or Anaconda)**
 3. The following Python packages:
-   - numpy
-   - pandas
+   - altgraph
+   - contourpy
+   - cycler
+   - fcsparser
+   - FlowCytometryTools
+   - fonttools
+   - kiwisolver
    - matplotlib
+   - numpy
+   - packaging
+   - pandas
+   - pillow
+   - pyparsing
+   - python-dateutil
+   - pytz
    - scipy
-
-> **Note:** Tkinter is usually included with Python. If you experience any issues with the GUI, please check that your Python installation includes Tkinter.
+   - seaborn
+   - six
+   - tornado
+   - tzdata
 
 ---
 
@@ -137,6 +151,8 @@ Using Conda will help keep the required packages separate from other software.
    conda activate fluorescence_viewer
    ```
 
+---
+
 ### Step 4: Install the Required Python Packages
 
    Ensure you are in the project folder and that your Conda environment is active.
@@ -144,6 +160,8 @@ Using Conda will help keep the required packages separate from other software.
    ```
    pip install -r requirements.txt
    ```
+
+---
 
 ## Running the Code
 
@@ -202,6 +220,7 @@ python plot_flow_data.py
 ```
 This will launch the graphical interface (GUI) of your application.
 
+---
 
 ## What the GUI Does
 1. **File Selection:**
@@ -216,6 +235,8 @@ Plotting Options:
 3. **Navigation:**
 - Easily switch between plotting individual cell data and the average intensity plot. You can go back to file selection if you want to load different data.
 
+---
+
 ## Troubleshooting
 
 - **Python/Conda Not Found:**
@@ -224,6 +245,8 @@ Plotting Options:
     If you encounter errors related to Tkinter, please verify that your Python installation includes Tkinter. On some systems, you may need to install an additional package (consult your operating system’s documentation).
 - **Need More Help?**
     Feel free to open an issue on the GitHub repository or contact the project maintainer.
+
+---
 
 ## License
 MIT License
@@ -247,6 +270,8 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
 
 ## Contact
 

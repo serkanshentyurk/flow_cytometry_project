@@ -17,27 +17,7 @@ Welcome to the Fluorescence Data Viewer! This tool lets you view and analyze flu
 
 1. **Python 3.6 or newer**
 2. **Conda (Miniconda or Anaconda)**
-3. The following Python packages:
-   - altgraph
-   - contourpy
-   - cycler
-   - fcsparser
-   - FlowCytometryTools
-   - fonttools
-   - kiwisolver
-   - matplotlib
-   - numpy
-   - packaging
-   - pandas
-   - pillow
-   - pyparsing
-   - python-dateutil
-   - pytz
-   - scipy
-   - seaborn
-   - six
-   - tornado
-   - tzdata
+3. **Some pyhton packages** (specified in `requirements.txt`)
 
 ---
 

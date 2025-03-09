@@ -124,13 +124,17 @@ Using Conda will help keep the required packages separate from other software.
    ```
    conda create --name fluorescence_viewer python=3.8
    ```
-   (Feel free to replace 3.8 with a newer version if desired.)
+   - Feel free to replace 3.8 with a newer version if desired.
+   - Feel free to replace `fluorescence_viewer` with any other preferred name. However, you will be using that name again and again, choose wisely!
 
 4. **Activate the Conda Environment:**
    ```
    conda activate fluorescence_viewer
    ```
-
+   or if you pick another name for the environment
+   ```
+   conda activate environment_name
+   ```
 ---
 
 ### Step 4: Install the Required Python Packages
@@ -181,6 +185,7 @@ Before running the application, make sure that you are inside the **project fold
      ```bash
      cd ~/Desktop/FluorescenceDataViewer
      ```
+    - Or you can right click to the folder which contains the code and select **New Terminal at Folder**
 
 #### **Activate the Conda Environment:**
 Once you are inside the project folder, ensure that the Conda environment `fluorescence_viewer` is activated. You can activate it by running:

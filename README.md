@@ -1,6 +1,6 @@
 # Fluorescence Data Viewer
 
-Welcome to the Fluorescence Data Viewer! This tool lets you view and analyze fluorescence data using a simple graphical interface. Even if you have no coding experience, you can follow these step-by-step instructions to set up and run the program on your Windows or macOS computer.
+Welcome to the Fluorescence Data Viewer! This tool lets you view and analyse fluorescence data using a simple graphical interface. Even if you have no coding experience, you can follow these step-by-step instructions to set up and run the program on your Windows or macOS computer.
 
 ---
 
@@ -17,7 +17,7 @@ Welcome to the Fluorescence Data Viewer! This tool lets you view and analyze flu
 
 1. **Python 3.6 or newer**
 2. **Conda (Miniconda or Anaconda)**
-3. **Some pyhton packages** (specified in `requirements.txt`)
+3. **Some python packages** (specified in `requirements.txt`)
 
 ---
 
@@ -209,7 +209,7 @@ Plotting Options:
 - **Individual Cell Plot:** View the fluorescence intensity of a specific cell.
 - **Average Intensity Plot:** See the average fluorescence intensity across all cells with variability indicators (such as standard deviation, standard error, or percentiles).
 2. **Interactive Controls:**
-- Adjust settings like figure size, colors, tick visibility, and log scale.
+- Adjust settings like figure size, colours, tick visibility, and log scale.
 - Input labels for the axes and title for the plot.
 - Save your plot as a high-resolution JPEG image.
 3. **Navigation:**

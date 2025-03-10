@@ -80,11 +80,19 @@ You have two options to download the project files:
      ```
 
 - **On macOS:**
+- Option 1:
   1. Open the **Terminal**.
   2. Navigate to the folder where you want to save the project:
      ```bash
      cd ~/Desktop
      ```
+   3. Clone the repository:
+     ```bash
+     git clone <repository-url>
+     ```
+- Option 2:
+  1. Double click to the folder where you want to save the project.
+  2. Click `New Terminal at Folder`
   3. Clone the repository:
      ```bash
      git clone <repository-url>
@@ -118,6 +126,8 @@ Using Conda will help keep the required packages separate from other software.
    ```bash
    cd ~/Desktop/FlowCytometryViewer
    ```
+   
+   On macOS, you can also double click to the Project Folder and click `New Terminal at Folder`.
 
 3. **Create a New Conda Environment:**
    Run the following command:
